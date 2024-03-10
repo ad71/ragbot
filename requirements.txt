@@ -1,1 +1,4 @@
-
+transformers==4.38.1
+accelerate
+einops
+hf_transfer
