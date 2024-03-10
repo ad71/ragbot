@@ -2,6 +2,7 @@ transformers==4.38.1
 sentence-transformers
 accelerate
 langchain
+pypdf
 einops
 chromadb
 hf_transfer
