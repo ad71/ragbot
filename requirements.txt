@@ -1,4 +1,7 @@
 transformers==4.38.1
+sentence-transformers
 accelerate
+langchain
 einops
+chromadb
 hf_transfer
