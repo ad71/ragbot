@@ -1,7 +1,10 @@
 transformers==4.38.1
 sentence-transformers
+bitsandbytes
 accelerate
 langchain
+langchain_community
+langchain_google_vertexai
 pypdf
 einops
 chromadb
