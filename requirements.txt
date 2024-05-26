@@ -6,6 +6,7 @@ langsmith==0.1.63
 playwright==1.44.0
 transformers==4.41.1
 langchainhub==0.1.16
+python-dotenv==1.0.1
 langchain_openai==0.1.7
 langchain_community==0.2.1
 sentence-transformers==2.7.0
