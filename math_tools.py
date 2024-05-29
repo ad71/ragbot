@@ -99,6 +99,9 @@ def _evaluate_expression(expression: str) -> str:
     except Exception as e:
         raise ValueError(f'Failed to evaluate "{expression}". Raised error: {repr(e)}. Please try again with a valid numerical expression')
     
+    # remove any leading and trailing brackets from the output
+    return re.sub(r"^\[|\]$", "", output)
+    
 def get_math_tool(llm: ChatOpenAI):
     prompt = ChatPromptTemplate.from_messages(
         [
