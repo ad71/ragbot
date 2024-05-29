@@ -127,8 +127,8 @@ def get_math_tool(llm: ChatOpenAI):
             except Exception as e:
                 return repr(e)
             
-        return StructuredTool.from_function(
-            name='math',
-            func=calculate_expression,
-            description=_MATH_DESCRIPTION
-        )
+    return StructuredTool.from_function(
+        name='math',
+        func=calculate_expression,
+        description=_MATH_DESCRIPTION
+    )
